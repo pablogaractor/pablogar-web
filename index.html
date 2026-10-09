@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pablo Gar – Actor en Madrid | Teatro, cine y videobook</title>
+<meta name="description" content="Pablo Gar, actor en Madrid formado en teatro físico, técnica Meisner y Michael Chéjov. Videobook, cortometrajes, teatro, fotos y CV.">
+<!-- DIRECCIÓN DE LA WEB: si tu dominio es otro, cambia "https://pablogar.com" en todo este bloque y en robots.txt y sitemap.xml -->
+<link rel="canonical" href="https://pablogar.com/">
+<link rel="alternate" hreflang="es" href="https://pablogar.com/?lang=es">
+<link rel="alternate" hreflang="en" href="https://pablogar.com/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://pablogar.com/">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Pablo Gar">
+<meta property="og:title" content="Pablo Gar – Actor">
+<meta property="og:description" content="Actor en Madrid. Videobook, cortometrajes, teatro y CV.">
+<meta property="og:url" content="https://pablogar.com/">
+<meta property="og:image" content="https://pablogar.com/pablo-gar-actor.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pablo Gar, actor">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23D2261C'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='30' font-weight='700' fill='white' text-anchor='middle'%3EPG%3C/text%3E%3C/svg%3E">
+<!-- Estadísticas de visitas (GoatCounter, sin cookies): https://pablogar.goatcounter.com -->
+<script data-goatcounter="https://pablogar.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Pablo Gar",
+  "jobTitle": "Actor",
+  "url": "https://pablogar.com/",
+  "image": "https://pablogar.com/fotos/pablo-gar-actor-01.jpg",
+  "email": "mailto:pablogar.actor@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Madrid",
+    "addressCountry": "ES"
+  },
+  "knowsLanguage": [
+    "es",
+    "en"
+  ],
+  "sameAs": [
+    "https://www.imdb.com/name/nm14563111/",
+    "https://www.instagram.com/pablo.gart/"
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..800;1,400..600&display=swap" rel="stylesheet">
+
+<script>
+/* =====================================================================
+   EDITA SOLO ESTE BLOQUE
+   - Fotos: cópialas a la carpeta "fotos" y escribe aquí el nombre.
+   - Vídeos: pega el enlace de YouTube o Vimeo tal cual.
+   - Para quitar algo, borra la línea entera. Para añadir, copia una y cámbiala.
+   ===================================================================== */
+const DATOS = {
+  nombre: "Pablo",
+  // Aviso destacado bajo la presentación. Desaparece solo a partir de la fecha "hasta".
+  en_cartel: { titulo: "REBIS", cuando: "Sábados de octubre, 20:00", donde: "El Umbral de Primavera. Calle Primavera, 11, Lavapiés (Madrid)",
+    entradas: "https://elumbraldeprimavera.com/evento/rebis-es-un-ser-extrano-el-alma-en-la-tierra/", hasta: "2026-11-01",
+    cartel: "carteles/rebis.jpg" },
+  // Presentación breve bajo tu nombre (2-3 líneas como máximo)
+  presentacion: "Afincado en Madrid, se ha formado en teatro físico y danza contemporánea, en las técnicas Meisner y Michael Chéjov, en voz y verso y en interpretación ante la cámara. Actualmente sigue profundizando en su trabajo en el Estudio Corazza. Ha participado en varios montajes teatrales con compañías como La Breve Pausa y Los Vikingos Company, ha realizado diversos cortometrajes y cuenta con experiencia en cine.",
+  apellidos: "Gar",
+
+  // Foto HORIZONTAL grande de cabecera (como en Calabuch). Ideal 2400 x 1350 px.
+  portada: "fotos/pablo-gar-actor-portada.jpg",
+  // Qué parte de la foto se prioriza al recortar: "50% 20%" = centro, zona alta (la cara)
+  portada_posicion: "50% 8%",
+
+  contacto: {
+    email: "pablogar.actor@gmail.com",
+    telefono: "+34 619 338 006",
+    ciudad: "Madrid",
+    instagram: "https://www.instagram.com/pablo.gart/",
+    imdb: "https://www.imdb.com/name/nm14563111/",
+    cv_pdf: "cv-pablo-gar.pdf",
+    cv_pdf_en: "cv-pablo-gar-en.pdf",
+  },
+
+  // Videobook y escenas sueltas
+  videos: [
+    { titulo: "Videobook", detalle: "2026", enlace: "https://youtu.be/EPZCGv_GKgE" },
+    { titulo: "Escena discusión", detalle: "2026", enlace: "https://youtu.be/qEeRnXTiMJI" },
+    { titulo: "Escena fiesta", detalle: "2026", enlace: "https://youtu.be/3-5okZMlc-I" }
+  ],
+
+  // Cortometrajes completos (sin límite de duración: se ven desde Vimeo/YouTube)
+  cortos: [
+    { titulo: "Las reales esposas", direccion: "Laura Bermúdez", nota: "Fragmento", anio: "2023", duracion: "", papel: "", premios: [], enlace: "https://youtu.be/ufeel31z72s", portada: "" },
+    { titulo: "Beyond", direccion: "Carlos Álvarez", anio: "2022", duracion: "", papel: "", premios: [], enlace: "https://youtu.be/zvpow_7BQx8", portada: "" },
+    { titulo: "A-Normal Bus", direccion: "Isabel G. Afonso", anio: "2022", duracion: "", papel: "", premios: [], enlace: "https://youtu.be/B1b4hayBors", portada: "" },
+    { titulo: "Esperando al viento", direccion: "Emiliano Reyes", anio: "2022", duracion: "", papel: "", premios: [], enlace: "https://youtu.be/lUIFUSyJoew", portada: "" }
+  ],
+
+  // CV. "premios" es opcional: cada línea sale debajo, en cursiva.
+  cv: [
+    { seccion: "Teatro", items: [
+      { titulo: "REBIS", dir: "", extra: "Dramaturgia y dirección de Roberto Egea Brandt, 2026" },
+      { titulo: "El Piso", dir: "", extra: "Texto de Javier García-Mauriño. En preparación" },
+      { titulo: "Niños Ferales", dir: "Victoria Mendizábal", extra: "Los Vikingos Company. Estreno en el Teatro Principal de Zamora, 2025" },
+      { titulo: "La tempestad", dir: "Dyron Triay", extra: "De William Shakespeare. Compañía La Breve Pausa, 2024" },
+      { titulo: "Antes / Después", dir: "Dyron Triay", extra: "De Roland Schimmelpfennig. Compañía La Breve Pausa, con el apoyo del Goethe-Institut, 2022" },
+      { titulo: "Emilia y Pablo", dir: "Darío Sisco", extra: "Concierto escénico, como bailarín, 2022" },
+      { titulo: "La zapatera prodigiosa", dir: "Pablo Borrega", extra: "De Federico García Lorca, 2021" },
+      { titulo: "(De)Constructing (Im)Possibilities", dir: "Elizabeta Malnar", extra: "Glasgow, 2016" }
+    ]},
+    { seccion: "Cine", items: [
+      { titulo: "Mi querida señorita", dir: "Fernando González Molina", extra: "Reparto, 2025" }
+    ]},
+    { seccion: "Cortometrajes", items: [
+      { titulo: "Las reales esposas", dir: "Laura Bermúdez", extra: "2023" },
+      { titulo: "My name is…", dir: "Miguel Arribas", extra: "2022" },
+      { titulo: "Beyond", dir: "Carlos Álvarez", extra: "2022" },
+      { titulo: "A-Normal Bus", dir: "Isabel G. Afonso", extra: "2022" },
+      { titulo: "Esperando al viento", dir: "Emiliano Reyes", extra: "2022" },
+      { titulo: "Maldita suerte", dir: "Jaime Díaz", extra: "2022" },
+      { titulo: "White Satin", dir: "Guliv St. Clair", extra: "Videoclip de Hagrid Void, 2022" }
+    ]},
+    { seccion: "Publicidad", items: [
+      { titulo: "Morrison", dir: "", extra: "Modelo, 2025" },
+      { titulo: "Somos5Audiovisual", dir: "", extra: "2022" },
+      { titulo: "Lee Films", dir: "", extra: "2020 y 2022" },
+      { titulo: "Garlic Producciones", dir: "", extra: "2019" },
+      { titulo: "Blur Producciones", dir: "", extra: "2019" }
+    ]}
+  ],
+  preparacion: [
+    "Estudio Corazza, curso regular. Actualidad.",
+    "Interpretación ante la cámara, con Paz Moral. Actualidad.",
+    "Técnica Meisner, con Manuel Castillo. 2024–2025.",
+    "Técnica Michael Chéjov, con Sarah Kane (Fuentes de la Voz). 2023–2024.",
+    "El arte de la palabra: Rudolf Steiner y Michael Chéjov, con Sarah Kane (Inglaterra). 2023–2024.",
+    "Voz, palabra y verso con Vicente Fuentes, Sarah Kane, Blandine Calais y Claire Heggen (Fuentes de la Voz). 2021–2024.",
+    "Seminario Objetivo Actuar, con Manuel Morón (Estudio Corazza). 2022.",
+    "Laboratorio Transmisión Legado del Teatro de la Abadía, con Lidia Otón, Miguel Cubero y Rosario Ruiz. 2021.",
+    "Laboratorio crítico Post-escena y pensamiento, con Manuel Bonillo (Teatro de la Abadía). 2020–2021.",
+    "Entrenamiento actoral, Estudio Codina. 2020–2021.",
+    "Danza contemporánea, con Poliana Lima y Lucas Condró. 2020–2021.",
+    "Escuela de Teatro Mar Navarro y Andrés Hernández. 2018–2020.",
+    "Physical Theatre Summer School, LISPA (Berlín). 2018.",
+    "Teatro físico y danza, con Matej Matejka. 2018.",
+    "Arte Dramático, Estudio Recabarren. 2015–2016.",
+    "Grado en Psicología, Universidad Complutense de Madrid. 2014–2019."
+  ],
+  idiomas: "Español (nativo), inglés (C1).",
+  datos: [
+    ["Altura", "175 cm"], ["Ojos", "Marrones"], ["Pelo", "Negro, liso"], ["Edad de interpretación", "23 a 30 años"],
+    ["Habilidades", "Danza contemporánea, teatro físico, verso"]
+  ],
+
+  // Crédito de las fotos (sale debajo de la galería)
+  fotos_credito: "Fotografía: Carlos Villarejo",
+  fotos_credito_enlace: "https://www.instagram.com/carlosvillarejo/",
+
+  // Fotos de book (verticales u horizontales)
+  fotos: [
+    "fotos/pablo-gar-actor-01.jpg",
+    "fotos/pablo-gar-actor-07.jpg",
+    "fotos/pablo-gar-actor-02.jpg",
+    "fotos/pablo-gar-actor-03.jpg",
+    "fotos/pablo-gar-actor-04.jpg",
+    "fotos/pablo-gar-actor-05.jpg",
+    "fotos/pablo-gar-actor-06.jpg",
+    "fotos/pablo-gar-actor-08.jpg",
+    "fotos/pablo-gar-actor-09.jpg"
+  ],
+
+  // Sección Teatro: una tarjeta por obra. "fotos" = fotos de función (opcional).
+  // Las obras que no estén aquí siguen apareciendo en el CV.
+  teatro: [
+    { titulo: "REBIS", cartel: "carteles/rebis.jpg", direccion: "Roberto Egea Brandt", autor: "Roberto Egea Brandt",
+      personaje: "", anio: "2026" },
+    { titulo: "Niños Ferales", cartel: "carteles/ninos-ferales.jpg", direccion: "Victoria Mendizábal", autor: "Victoria Mendizábal",
+      personaje: "", anio: "2025", nota: "Los Vikingos Company. Estreno en el Teatro Principal de Zamora" },
+    { titulo: "La tempestad", cartel: "carteles/la-tempestad.jpg", direccion: "Dyron Triay", autor: "William Shakespeare",
+      personaje: "", anio: "2024", nota: "Compañía La Breve Pausa" },
+    { titulo: "Antes / Después", cartel: "carteles/antes-despues.jpg", direccion: "Dyron Triay", autor: "Roland Schimmelpfennig",
+      personaje: "", anio: "2022", nota: "Compañía La Breve Pausa. Con el apoyo del Goethe-Institut" }
+  ]
+};
+
+/* =====================================================================
+   VERSIÓN EN INGLÉS
+   Solo hay que poner aquí lo que cambia respecto al español.
+   Las listas de vídeos, cortos y teatro se emparejan por orden con las de arriba.
+   ===================================================================== */
+const DATOS_EN = {
+  en_cartel: { cuando: "Saturdays in October, 8 pm", donde: "El Umbral de Primavera. Calle Primavera, 11, Lavapiés (Madrid)" },
+  presentacion: "Madrid-based actor trained in physical theatre and contemporary dance, the Meisner and Michael Chekhov techniques, voice and verse, and on-camera acting. He is currently deepening his craft at Estudio Corazza. He has performed in several stage productions with companies such as La Breve Pausa and Los Vikingos Company, has appeared in a number of short films and has experience in feature film.",
+  videos: [
+    { titulo: "Showreel" },
+    { titulo: "Argument scene" },
+    { titulo: "Party scene" }
+  ],
+  cortos: [
+    { nota: "Excerpt" }, {}, {}, {}
+  ],
+  cv: [
+    { seccion: "Theatre", items: [
+      { titulo: "REBIS", dir: "", extra: "Written and directed by Roberto Egea Brandt, 2026" },
+      { titulo: "El Piso", dir: "", extra: "Written by Javier García-Mauriño. In development" },
+      { titulo: "Niños Ferales", dir: "Victoria Mendizábal", extra: "Los Vikingos Company. Premiered at Teatro Principal de Zamora, 2025" },
+      { titulo: "La tempestad (The Tempest)", dir: "Dyron Triay", extra: "By William Shakespeare. La Breve Pausa company, 2024" },
+      { titulo: "Antes / Después (Before / After)", dir: "Dyron Triay", extra: "By Roland Schimmelpfennig. La Breve Pausa company, supported by the Goethe-Institut, 2022" },
+      { titulo: "Emilia y Pablo", dir: "Darío Sisco", extra: "Staged concert, as a dancer, 2022" },
+      { titulo: "La zapatera prodigiosa (The Shoemaker's Prodigious Wife)", dir: "Pablo Borrega", extra: "By Federico García Lorca, 2021" },
+      { titulo: "(De)Constructing (Im)Possibilities", dir: "Elizabeta Malnar", extra: "Glasgow, 2016" }
+    ]},
+    { seccion: "Film", items: [
+      { titulo: "Mi querida señorita", dir: "Fernando González Molina", extra: "Supporting cast, 2025" }
+    ]},
+    { seccion: "Short films", items: [
+      { titulo: "Las reales esposas", dir: "Laura Bermúdez", extra: "2023" },
+      { titulo: "My name is…", dir: "Miguel Arribas", extra: "2022" },
+      { titulo: "Beyond", dir: "Carlos Álvarez", extra: "2022" },
+      { titulo: "A-Normal Bus", dir: "Isabel G. Afonso", extra: "2022" },
+      { titulo: "Esperando al viento", dir: "Emiliano Reyes", extra: "2022" },
+      { titulo: "Maldita suerte", dir: "Jaime Díaz", extra: "2022" },
+      { titulo: "White Satin", dir: "Guliv St. Clair", extra: "Music video for Hagrid Void, 2022" }
+    ]},
+    { seccion: "Commercials", items: [
+      { titulo: "Morrison", dir: "", extra: "Model, 2025" },
+      { titulo: "Somos5Audiovisual", dir: "", extra: "2022" },
+      { titulo: "Lee Films", dir: "", extra: "2020 and 2022" },
+      { titulo: "Garlic Producciones", dir: "", extra: "2019" },
+      { titulo: "Blur Producciones", dir: "", extra: "2019" }
+    ]}
+  ],
+  preparacion: [
+    "Estudio Corazza, regular course. Ongoing.",
+    "On-camera acting, with Paz Moral. Ongoing.",
+    "Meisner technique, with Manuel Castillo. 2024–2025.",
+    "Michael Chekhov technique, with Sarah Kane (Fuentes de la Voz). 2023–2024.",
+    "The Art of the Word: Rudolf Steiner and Michael Chekhov, with Sarah Kane (England). 2023–2024.",
+    "Voice, speech and verse with Vicente Fuentes, Sarah Kane, Blandine Calais and Claire Heggen (Fuentes de la Voz). 2021–2024.",
+    "Objetivo Actuar seminar, with Manuel Morón (Estudio Corazza). 2022.",
+    "Legacy Transmission Lab, Teatro de la Abadía, with Lidia Otón, Miguel Cubero and Rosario Ruiz. 2021.",
+    "Post-escena y pensamiento critical lab, with Manuel Bonillo (Teatro de la Abadía). 2020–2021.",
+    "Actor training, Estudio Codina. 2020–2021.",
+    "Contemporary dance, with Poliana Lima and Lucas Condró. 2020–2021.",
+    "Mar Navarro and Andrés Hernández Drama School. 2018–2020.",
+    "Physical Theatre Summer School, LISPA (Berlin). 2018.",
+    "Physical theatre and dance, with Matej Matejka. 2018.",
+    "Drama, Estudio Recabarren. 2015–2016.",
+    "BSc in Psychology, Complutense University of Madrid. 2014–2019."
+  ],
+  idiomas: "Spanish (native), English (C1).",
+  datos: [
+    ["Height", "175 cm"], ["Eyes", "Brown"], ["Hair", "Black, straight"], ["Playing age", "23 to 30"],
+    ["Skills", "Contemporary dance, physical theatre, verse"]
+  ],
+  fotos_credito: "Photography: Carlos Villarejo",
+  teatro: [
+    {},
+    { nota: "Los Vikingos Company. Premiered at Teatro Principal de Zamora" },
+    { titulo: "La tempestad (The Tempest)", nota: "La Breve Pausa company" },
+    { titulo: "Antes / Después (Before / After)", nota: "La Breve Pausa company. Supported by the Goethe-Institut" }
+  ]
+};
+</script>
+
+<style>
+:root{
+  --blanco:#FFFFFF;
+  --tinta:#141414;
+  --gris:#6E6E6E;
+  --linea:#E4E4E4;
+  --fondo-foto:#EFEFEF;
+  --rojo:#D2261C;
+  --f:"Schibsted Grotesk","Helvetica Neue",Arial,sans-serif;
+  --wrap:1280px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--blanco);color:var(--tinta);font:400 1rem/1.6 var(--f);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--rojo);outline-offset:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+
+/* Cabecera */
+header.top{position:sticky;top:0;z-index:30;background:var(--blanco);border-bottom:1px solid var(--linea)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;height:4rem;gap:1rem}
+.logo{font-weight:800;font-size:1.05rem;letter-spacing:-.01em;color:var(--rojo);white-space:nowrap}
+header.top nav{display:flex;gap:clamp(1rem,2.4vw,2.2rem);font-size:.95rem}
+header.top nav a:hover{color:var(--rojo)}
+header.top nav{margin-left:auto}
+.idioma{display:flex;gap:.15rem;flex:none;margin-left:clamp(.4rem,1.2vw,1rem);font-size:.85rem;font-weight:600}
+.idioma a{padding:.25rem .35rem;color:var(--gris);border-radius:3px}
+.idioma a:hover{color:var(--tinta)}
+.idioma a[aria-current]{color:var(--tinta);background:#eee}
+@media (max-width:700px){
+  header.top .logo{display:none}
+  header.top .nav-contacto{display:none}
+  header.top .wrap{padding-left:14px;padding-right:12px;gap:.55rem}
+  header.top nav{gap:.75rem;font-size:.86rem}
+  header .redes-top{gap:.55rem;margin-left:0;padding-left:.55rem}
+  header .redes-top svg{height:19px;width:19px}
+  .idioma{margin-left:0;font-size:.78rem}
+  .idioma a{padding:.2rem .28rem}
+}
+@media (max-width:345px){
+  header .redes-top{display:none}
+  header.top nav{margin-left:0;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+  header.top nav::-webkit-scrollbar{display:none}
+}
+
+/* Portada */
+.portada{width:100%;aspect-ratio:16/8;max-height:78vh;background:var(--fondo-foto);overflow:hidden}
+.portada img{width:100%;height:100%;object-fit:cover}
+@media (max-width:700px){.portada{aspect-ratio:4/3}}
+
+.identidad{padding-top:clamp(2rem,5vw,3.5rem);padding-bottom:clamp(1.5rem,3vw,2rem)}
+.identidad h1{margin:0;font-weight:700;font-size:clamp(2rem,8.2vw,7rem);line-height:.95;letter-spacing:-.035em;white-space:nowrap}
+.identidad h1 .oficio{font-weight:400;color:var(--gris)}
+
+.intro{max-width:66ch;margin:clamp(1.25rem,2.5vw,2rem) 0 0;font-size:clamp(1.08rem,1.65vw,1.45rem);line-height:1.5;color:var(--tinta);text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+@media (max-width:700px){.intro{text-align:left}}
+.cartel-aviso{display:flex;gap:1.1rem;align-items:flex-start;margin-top:clamp(1.25rem,2.5vw,1.75rem);padding:1rem 1.2rem;border-left:3px solid var(--rojo);background:#f6f6f6;max-width:66ch}
+.cartel-aviso .mini{flex:none;width:clamp(64px,7vw,84px);line-height:0;box-shadow:0 1px 3px rgba(0,0,0,.15);transition:transform .2s}
+.cartel-aviso .mini:hover{transform:translateY(-2px)}
+.cartel-aviso .mini img{width:100%;height:auto;display:block}
+.cartel-aviso{align-items:center}
+.cartel-aviso .etq{flex:none;align-self:stretch;display:flex;align-items:center;font-weight:700;color:var(--gris);font-size:.85rem;white-space:nowrap;padding-right:1.1rem;border-right:1px solid #d6d6d6;line-height:1.2}
+.cartel-aviso .mini{align-self:center}
+.cartel-aviso div{display:flex;flex-direction:column;gap:.15rem;font-size:.95rem}
+.cartel-aviso strong{text-transform:uppercase;letter-spacing:.01em}
+.cartel-aviso .entradas{text-transform:none;color:var(--rojo);font-weight:700;text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+.cartel-aviso .entradas:hover{opacity:.8}
+@media (max-width:520px){.cartel-aviso{gap:.8rem;padding:.9rem 1rem}.cartel-aviso .mini{width:56px}.cartel-aviso .etq{padding-right:.8rem;font-size:.78rem;white-space:normal;width:4.2em}}
+.saltos{display:flex;flex-wrap:wrap;gap:.6rem 1.8rem;margin-top:clamp(1.5rem,3vw,2.25rem);font-size:1.05rem}
+.saltos a{border-bottom:1.5px solid var(--tinta);padding-bottom:.1rem}
+.saltos a:hover{color:var(--rojo);border-color:var(--rojo)}
+
+section{padding:clamp(3rem,7vw,5.5rem) 0;scroll-margin-top:4rem}
+section+section{border-top:1px solid var(--linea)}
+h2{margin:0 0 2rem;font-weight:700;font-size:clamp(1.8rem,3.6vw,2.6rem);letter-spacing:-.025em;line-height:1}
+
+/* Vídeo reutilizable */
+.pantalla{position:relative;aspect-ratio:16/9;background:#111;overflow:hidden}
+.pantalla img{width:100%;height:100%;object-fit:cover}
+.pantalla iframe,.pantalla video{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}
+.play{position:absolute;inset:0;width:100%;border:0;background:transparent;cursor:pointer;display:grid;place-items:center;color:#fff}
+.play span{width:68px;height:68px;border-radius:50%;background:rgba(0,0,0,.5);display:grid;place-items:center;transition:background .2s}
+.play:hover span,.play:focus-visible span{background:var(--rojo)}
+.vacio{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:1rem;color:#8a8a8a;font-size:.9rem}
+
+.videos{display:grid;grid-template-columns:repeat(2,1fr);gap:2.5rem 1.5rem}
+@media (max-width:700px){.videos{grid-template-columns:1fr;gap:2rem}}
+.pieza.destacado{grid-column:1/-1}
+.pieza h3{margin:.9rem 0 .25rem;font-size:1.15rem;font-weight:700;letter-spacing:-.01em;text-transform:uppercase;line-height:1.15}
+.pieza.destacado h3{font-size:clamp(1.3rem,2.2vw,1.6rem)}
+.pieza p{margin:.1rem 0 0;color:var(--gris);font-size:.95rem}
+
+.bloque-sub+.bloque-sub{margin-top:clamp(3rem,6vw,4.5rem)}
+h3.sub{margin:0 0 1.5rem;font-size:1rem;font-weight:700;color:var(--rojo)}
+
+/* Teatro */
+.obras{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2.5rem 1.5rem;align-items:start}
+@media (max-width:980px){.obras{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.obra dl{grid-template-columns:1fr;gap:0}.obra dt{font-size:.8rem;margin-top:.35rem}.obra dd{overflow-wrap:anywhere}}
+@media (max-width:420px){.obras{gap:2rem 1rem}}
+.obra .cartel{all:unset;cursor:zoom-in;display:block;background:var(--fondo-foto);aspect-ratio:5/7;overflow:hidden}
+.obra .cartel:focus-visible{outline:2px solid var(--rojo);outline-offset:3px}
+.obra .cartel img{width:100%;height:100%;object-fit:cover;transition:opacity .25s}
+.obra .cartel:hover img{opacity:.88}
+.obra h3{margin:1rem 0 .6rem;font-size:1.15rem;font-weight:700;letter-spacing:-.01em;text-transform:uppercase;line-height:1.15}
+.obra dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.25rem .9rem;font-size:.9rem}
+.obra dt{color:var(--gris)}.obra dd{margin:0}
+.obra .nota{margin:.6rem 0 0;font-size:.88rem;font-style:italic;color:var(--gris);line-height:1.45}
+
+/* CV */
+.cv-cab{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 2.5rem;margin-bottom:2rem}
+.cv-cab h2{margin:0}
+.descargas{display:flex;flex-wrap:wrap;gap:.6rem 1.6rem}
+.descargas .descarga{color:var(--tinta);border-bottom:1.5px solid var(--tinta);font-weight:500;padding-bottom:.05rem;line-height:1.2}
+.descargas .descarga:hover{color:var(--rojo);border-color:var(--rojo)}
+.cv{display:grid;grid-template-columns:minmax(200px,1fr) 3fr;gap:2.5rem clamp(2.5rem,6vw,6rem);align-items:start}
+.cv-lado{position:sticky;top:5.5rem}
+@media (max-width:820px){.cv{grid-template-columns:1fr}.cv-lado{position:static}}
+.cv h3{margin:0 0 .9rem;font-size:1rem;font-weight:700;color:var(--rojo)}
+.cv .bloque+.bloque{margin-top:2.5rem}
+.cv-lado dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.35rem 1rem}
+.cv-lado dt{color:var(--gris)}.cv-lado dd{margin:0}
+.cv-lado p{margin:0}
+.cv ul{list-style:none;margin:0;padding:0;max-width:52rem}
+.cv li{display:grid;grid-template-columns:1fr auto;gap:2rem;padding:.55rem 0;border-bottom:1px solid var(--linea);line-height:1.45}
+.cv li:first-child{border-top:1px solid var(--linea)}
+.cv .t{text-transform:uppercase;font-weight:600;letter-spacing:.01em}
+.cv .nota{display:block;color:var(--gris);font-size:.93rem}
+.cv .anio{color:var(--gris);font-variant-numeric:tabular-nums;white-space:nowrap}
+.cv .premio{display:block;font-style:italic;color:var(--gris);font-size:.93rem}
+.cv .premio::before{content:"· "}
+.cv .descarga{display:inline-block;margin-top:1.25rem;border-bottom:1.5px solid var(--tinta)}
+.cv .descarga:hover{color:var(--rojo);border-color:var(--rojo)}
+
+/* Galerías */
+.galeria{display:grid;grid-template-columns:repeat(3,1fr);gap:.9rem}
+@media (max-width:560px){.galeria{grid-template-columns:repeat(2,1fr);gap:.6rem}}
+.galeria button{all:unset;cursor:zoom-in;display:block}
+.galeria button:focus-visible{outline:2px solid var(--rojo);outline-offset:3px}
+.galeria .marco{aspect-ratio:4/5;background:var(--fondo-foto);overflow:hidden}
+.galeria img{width:100%;height:100%;object-fit:cover;transition:opacity .25s}
+.galeria button:hover img{opacity:.85}
+.galeria .pie{display:block;margin-top:.5rem;font-size:.92rem}
+.credito{margin:1rem 0 0;color:var(--gris);font-size:.9rem}
+.credito a{border-bottom:1px solid currentColor}
+.credito a:hover{color:var(--rojo)}
+.falta{width:100%;height:100%;display:grid;place-items:center;text-align:center;padding:1rem;color:#9a9a9a;font-size:.85rem}
+
+dialog.visor{border:0;padding:0;background:transparent;max-width:min(94vw,1300px);max-height:94vh;overflow:visible}
+dialog.visor::backdrop{background:rgba(255,255,255,.97)}
+dialog.visor img{max-height:86vh;width:auto;margin:0 auto}
+dialog.visor p{text-align:center;margin:.8rem 0 0;font-size:.95rem}
+.visor .ctrl{position:fixed;top:50%;transform:translateY(-50%);background:none;border:0;font-size:2.4rem;line-height:1;cursor:pointer;padding:.5rem 1rem;color:var(--tinta)}
+.visor .ctrl:hover,.visor .cerrar:hover{color:var(--rojo)}
+.visor .ant{left:1vw}.visor .sig{right:1vw}
+.visor .cerrar{position:fixed;top:2vh;right:2vw;background:none;border:0;font:500 1rem var(--f);cursor:pointer;padding:.6rem;color:var(--tinta)}
+
+/* Pie / contacto */
+footer{background:var(--tinta);color:#fff;padding:clamp(3rem,6vw,4.5rem) 0 2.5rem;scroll-margin-top:4rem}
+footer .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:2rem}
+footer .logo{font-size:1.6rem}
+footer p{margin:0 0 .3rem}
+footer a:hover{color:var(--rojo)}
+footer .redes{display:flex;gap:1.1rem;align-items:center;align-self:start}
+footer .redes svg{height:26px;width:26px;display:block}
+footer .redes a:hover{opacity:.75}
+header .redes-top{display:flex;gap:.9rem;align-items:center;flex:none;margin-left:clamp(.2rem,1vw,.8rem);padding-left:clamp(.8rem,1.6vw,1.4rem);border-left:1px solid var(--linea)}
+header .redes-top a{border:0;padding:0;font-size:.95rem;color:var(--gris)}
+header .redes-top a:hover{opacity:.8}
+header .redes-top .ic-imdb{color:#000;background:#F5C518;border-radius:4px;line-height:0}
+header .redes-top .ic-instagram svg{fill:url(#ig-grad)}
+header .redes-top svg{height:22px;width:22px;display:block}
+
+footer .legal{grid-column:1/-1;margin-top:1.5rem;color:#8a8a8a;font-size:.85rem}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" id="logo"></a>
+    <nav aria-label="Secciones">
+      <a href="#audiovisual" data-i18n="nav_material">Material</a>
+      <a href="#teatro" data-i18n="teatro">Teatro</a>
+      <a href="#fotos" data-i18n="fotos">Fotos</a>
+      <a href="#cv">CV</a>
+      <a href="#contacto" class="nav-contacto" data-i18n="contacto">Contacto</a>
+    </nav>
+    <span class="redes-top" id="redes-top"></span>
+    <span class="idioma" id="idioma" role="group" aria-label="Idioma / Language"><a href="?lang=es" data-l="es" lang="es">ES</a><a href="?lang=en" data-l="en" lang="en">EN</a></span>
+  </div>
+</header>
+
+<div class="portada" id="portada"></div>
+
+<div class="wrap identidad">
+  <h1 id="nombre">Pablo Gar<span class="oficio"> – Actor</span></h1>
+  <p class="intro" id="intro">Afincado en Madrid, se ha formado en teatro físico y danza contemporánea, en las técnicas Meisner y Michael Chéjov, en voz y verso y en interpretación ante la cámara. Actualmente sigue profundizando en su trabajo en el Estudio Corazza. Ha participado en varios montajes teatrales con compañías como La Breve Pausa y Los Vikingos Company, ha realizado diversos cortometrajes y cuenta con experiencia en cine.</p>
+  <div class="cartel-aviso" id="aviso"></div>
+</div>
+
+<main>
+  <section id="audiovisual"><div class="wrap"><h2 data-i18n="material">Material</h2>
+    <div class="bloque-sub" id="bloque-videos"><h3 class="sub" data-i18n="sub_videos">Videobook y escenas</h3><div class="videos" id="videos-lista"></div></div>
+    <div class="bloque-sub" id="bloque-cortos"><h3 class="sub" data-i18n="sub_cortos">Cortometrajes</h3><div class="videos" id="cortos-lista"></div></div>
+  </div></section>
+  <section id="teatro"><div class="wrap"><h2 data-i18n="teatro">Teatro</h2><div class="obras" id="teatro-lista"></div></div></section>
+  <section id="fotos"><div class="wrap"><h2 data-i18n="fotos">Fotos</h2><div class="galeria" id="galeria"></div></div></section>
+  <section id="cv"><div class="wrap"><div class="cv-cab"><h2>CV</h2><div class="descargas" id="cv-descargas"></div></div><div class="cv" id="cv-lista"></div></div></section>
+</main>
+
+<footer id="contacto"><div class="wrap" id="pie"></div></footer>
+
+<dialog class="visor" id="visor" aria-label="Foto ampliada">
+  <button class="cerrar" id="v-cerrar" data-i18n="cerrar">Cerrar ✕</button>
+  <button class="ctrl ant" id="v-ant" aria-label="Anterior">‹</button>
+  <img id="v-img" alt="">
+  <p id="v-pie"></p>
+  <button class="ctrl sig" id="v-sig" aria-label="Siguiente">›</button>
+</dialog>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  // Idioma: ?lang= en la dirección > elección guardada > idioma del navegador
+  const leer = () => { try { return localStorage.getItem("idioma"); } catch (e) { return null; } };
+  const guardar = v => { try { localStorage.setItem("idioma", v); } catch (e) {} };
+  const q = new URLSearchParams(location.search).get("lang");
+  let L = q || leer() || ((navigator.language || "es").toLowerCase().startsWith("es") ? "es" : "en");
+  if (L !== "en") L = "es";
+  if (q) guardar(L);
+  const mezclar = (base, extra) => {
+    if (Array.isArray(base) && Array.isArray(extra)) {
+      const objetos = base.length && typeof base[0] === "object" && !Array.isArray(base[0]) && extra.length === base.length;
+      return objetos ? base.map((b, i) => mezclar(b, extra[i] || {})) : extra;
+    }
+    if (base && typeof base === "object" && extra && typeof extra === "object" && !Array.isArray(base)) {
+      const r = { ...base }; for (const k in extra) r[k] = k in base ? mezclar(base[k], extra[k]) : extra[k]; return r;
+    }
+    return extra === undefined ? base : extra;
+  };
+  const D = L === "en" && typeof DATOS_EN !== "undefined" ? mezclar(DATOS, DATOS_EN) : DATOS;
+  const TX = {
+    es: { nav_material: "Material", material: "Material", sub_videos: "Videobook y escenas", sub_cortos: "Cortometrajes", teatro: "Teatro", fotos: "Fotos", contacto: "Contacto", cerrar: "Cerrar ✕",
+          en_cartel: "En cartel", entradas: "Comprar entradas", personaje: "Personaje", direccion: "Dirección", autor: "Autor", anio: "Año",
+          preparacion: "Preparación", idiomas: "Idiomas", datos: "Datos", cv_es: "CV – español", cv_en: "CV – inglés", ciudad: "Actor. ", falta: "Falta la foto: ",
+          reproducir: "Reproducir ", ampliar: "Ampliar ", foto: "foto ", ver_cartel: "Ver cartel de ", cartel: "Cartel de ", anterior: "Anterior", siguiente: "Siguiente",
+          vacio: "Pega aquí el enlace de YouTube o Vimeo", desc: "Pablo Gar, actor en Madrid formado en teatro físico, técnica Meisner y Michael Chéjov. Videobook, cortometrajes, teatro, fotos y CV." },
+    en: { nav_material: "Screen", material: "Screen work", sub_videos: "Showreel & scenes", sub_cortos: "Short films", teatro: "Theatre", fotos: "Photos", contacto: "Contact", cerrar: "Close ✕",
+          en_cartel: "Now playing", entradas: "Buy tickets", personaje: "Role", direccion: "Director", autor: "Playwright", anio: "Year",
+          preparacion: "Training", idiomas: "Languages", datos: "Details", cv_es: "CV – Spanish", cv_en: "CV – English", ciudad: "Actor. ", falta: "Missing photo: ",
+          reproducir: "Play ", ampliar: "Enlarge ", foto: "photo ", ver_cartel: "View poster for ", cartel: "Poster for ", anterior: "Previous", siguiente: "Next",
+          vacio: "Paste the YouTube or Vimeo link here", desc: "Pablo Gar, Madrid-based actor trained in physical theatre, Meisner and Michael Chekhov technique. Showreel, short films, theatre, photos and CV." }
+  }[L];
+  document.documentElement.lang = L;
+  document.querySelector('meta[name="description"]').content = TX.desc;
+  document.querySelectorAll("[data-i18n]").forEach(n => { if (TX[n.dataset.i18n]) n.textContent = TX[n.dataset.i18n]; });
+  $("v-ant").setAttribute("aria-label", TX.anterior); $("v-sig").setAttribute("aria-label", TX.siguiente);
+  // Estadísticas: cuenta acciones (play en vídeos, descargas de CV, entradas, redes...)
+  const cuenta = nombre => { try { window.goatcounter?.count?.({ path: nombre, title: nombre, event: true }); } catch (e) {} };
+  document.addEventListener("click", e => { const t = e.target.closest("[data-ev]"); if (t) cuenta(t.dataset.ev); }, true);
+  document.querySelectorAll("#idioma a").forEach(a => {
+    a.dataset.ev = "idioma-" + a.dataset.l;
+    if (a.dataset.l === L) a.setAttribute("aria-current", "true");
+    a.addEventListener("click", e => { guardar(a.dataset.l); });
+  });
+  const el = (tag, attrs = {}, text) => {
+    const n = document.createElement(tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (text != null) n.textContent = text;
+    return n;
+  };
+  const foto = (src, alt, eager) => {
+    const img = el("img", { src, alt, loading: eager ? "eager" : "lazy" });
+    img.addEventListener("error", () => img.replaceWith(el("div", { class: "falta" }, TX.falta + src)));
+    return img;
+  };
+  const completo = D.nombre + " " + D.apellidos;
+  if (L === "en") document.title = completo + " – Madrid-based actor | Theatre, film and showreel";
+  $("logo").textContent = completo;
+
+  const pimg = foto(D.portada, completo, true);
+  pimg.style.objectPosition = D.portada_posicion || "50% 30%";
+  $("portada").append(pimg);
+  const ec = D.en_cartel;
+  if (ec && (!ec.hasta || new Date() < new Date(ec.hasta))) {
+    const av = $("aviso");
+    av.append(el("span", { class: "etq" }, TX.en_cartel));
+    if (ec.cartel) {
+      const mini = el(ec.entradas ? "a" : "span", ec.entradas ? { class: "mini", href: ec.entradas, target: "_blank", rel: "noopener", "data-ev": "entradas-" + DATOS.en_cartel.titulo + " (cartel)", "aria-label": TX.entradas + " – " + ec.titulo } : { class: "mini" });
+      mini.append(el("img", { src: ec.cartel, alt: TX.cartel + ec.titulo }));
+      av.append(mini);
+    }
+    const t = el("div");
+    const tit = el("strong", {}, ec.titulo);
+    if (ec.entradas) tit.append(" – ", el("a", { href: ec.entradas, target: "_blank", rel: "noopener", class: "entradas", "data-ev": "entradas-" + DATOS.en_cartel.titulo }, TX.entradas));
+    t.append(tit, el("span", {}, ec.cuando), el("span", {}, ec.donde));
+    av.append(t);
+  } else $("aviso").remove();
+  if (D.presentacion) $("intro").textContent = D.presentacion; else $("intro").remove();
+  $("nombre").textContent = ""; $("nombre").append(completo, el("span", { class: "oficio" }, " – Actor"));
+
+  // Saltos (como Films / CV / Works en Calabuch), solo a secciones con contenido
+  if (!(D.videos || []).length) $("bloque-videos").remove();
+  if (!(D.cortos || []).length) $("bloque-cortos").remove();
+  const secciones = [["audiovisual", "Material", [...(D.videos || []), ...(D.cortos || [])]], ["teatro", "Teatro", D.teatro],
+                     ["fotos", "Fotos", D.fotos], ["cv", "CV", D.cv]];
+  secciones.forEach(([id, txt, arr]) => {
+    if (!arr || !arr.length) { $(id).remove(); document.querySelector(`header nav a[href="#${id}"]`)?.remove(); return; }
+  });
+
+  // Reproductor
+  const idVideo = url => {
+    if (!url) return null;
+    let m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/))([\w-]{11})/);
+    if (m) return { tipo: "yt", id: m[1] };
+    m = url.match(/vimeo\.com\/(?:video\/)?(\d+)(?:\/(\w+))?/);
+    if (m) return { tipo: "vimeo", id: m[1], hash: m[2] };
+    return null;
+  };
+  const esArchivo = url => /\.(mp4|webm|mov)(\?|$)/i.test(url || "");
+  const reproductor = (v, ev) => {
+    const pant = el("div", { class: "pantalla" });
+    const info = idVideo(v.enlace);
+    if (!info && !esArchivo(v.enlace)) { pant.append(el("div", { class: "vacio" }, TX.vacio)); return pant; }
+    const mini = v.portada || (info?.tipo === "yt" ? `https://i.ytimg.com/vi/${info.id}/hqdefault.jpg` : info ? `https://vumbnail.com/${info.id}.jpg` : "");
+    if (mini) { const im = el("img", { src: mini, alt: "", loading: "lazy" }); im.addEventListener("error", () => im.remove()); pant.append(im); }
+    const b = el("button", { class: "play", "aria-label": TX.reproducir + v.titulo });
+    b.innerHTML = '<span><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4v16l13-8z"/></svg></span>';
+    b.onclick = () => {
+      cuenta("video: " + (ev || v.titulo));
+      pant.innerHTML = "";
+      if (info) {
+        const src = info.tipo === "yt" ? `https://www.youtube-nocookie.com/embed/${info.id}?autoplay=1&rel=0`
+                  : `https://player.vimeo.com/video/${info.id}?autoplay=1${info.hash ? "&h=" + info.hash : ""}`;
+        pant.append(el("iframe", { src, title: v.titulo, allow: "autoplay; encrypted-media; fullscreen; picture-in-picture", allowfullscreen: "", referrerpolicy: "strict-origin-when-cross-origin" }));
+      } else pant.append(el("video", { src: v.enlace, controls: "", autoplay: "", playsinline: "" }));
+    };
+    pant.append(b);
+    return pant;
+  };
+
+  const pieza = (v, lineas, ev) => {
+    const d = el("article", { class: "pieza" });
+    d.append(reproductor(v, ev), el("h3", {}, v.titulo));
+    lineas.filter(Boolean).forEach(t => d.append(el("p", {}, t)));
+    return d;
+  };
+  (D.videos || []).forEach((v, i) => {
+    const d = pieza(v, [v.detalle], DATOS.videos[i]?.titulo);
+    if (i === 0 && /videobook|reel/i.test(v.titulo)) d.classList.add("destacado");
+    $("videos-lista")?.append(d);
+  });
+  (D.cortos || []).forEach((c, i) => {
+    const d = pieza(c, [
+      [c.direccion && "Dir. " + c.direccion, c.nota].filter(Boolean).join(" · "),
+      [c.papel, c.duracion, c.anio].filter(Boolean).join(", "),
+      ...(c.premios || []).map(p => "· " + p)
+    ], DATOS.cortos[i]?.titulo);
+    $("cortos-lista")?.append(d);
+  });
+
+  // CV: columna estrecha (datos, idiomas) + columna ancha (créditos con el año a la derecha)
+  const separarAnio = t => {
+    const m = (t || "").match(/[,.]?\s*((?:\d{4}(?:\s*(?:–|-|y|and)\s*\d{4})?)|Actualidad|Ongoing)\.?$/);
+    return m ? [t.slice(0, m.index).trim(), m[1]] : [t || "", ""];
+  };
+  const cv = $("cv-lista");
+  if (cv) {
+    const lado = el("aside", { class: "cv-lado" }), cuerpo = el("div", { class: "cv-cuerpo" });
+    if (D.datos?.length) {
+      const sec = el("div", { class: "bloque" }); sec.append(el("h3", {}, TX.datos));
+      const dl = el("dl");
+      D.datos.forEach(([k, v]) => dl.append(el("dt", {}, k), el("dd", {}, v)));
+      sec.append(dl); lado.append(sec);
+    }
+    if (D.idiomas) { const sec = el("div", { class: "bloque" }); sec.append(el("h3", {}, TX.idiomas), el("p", {}, D.idiomas.replace(/\.$/, ""))); lado.append(sec); }
+    const fila = (principal, nota, anio) => {
+      const li = el("li"), txt = el("div");
+      txt.append(...principal);
+      if (nota) txt.append(el("span", { class: "nota" }, nota));
+      li.append(txt, el("span", { class: "anio" }, anio || ""));
+      return li;
+    };
+    D.cv.forEach(sc => {
+      const sec = el("div", { class: "bloque" }); sec.append(el("h3", {}, sc.seccion));
+      const ul = el("ul");
+      sc.items.forEach(it => {
+        const [nota, anio] = separarAnio(it.extra);
+        const principal = [el("span", { class: "t" }, it.titulo)];
+        if (it.dir) principal.push(document.createTextNode(" – Dir. " + it.dir));
+        const li = fila(principal, nota, anio);
+        (it.premios || []).forEach(pr => li.firstChild.append(el("span", { class: "premio" }, pr)));
+        ul.append(li);
+      });
+      sec.append(ul); cuerpo.append(sec);
+    });
+    if (D.preparacion?.length) {
+      const sec = el("div", { class: "bloque" }); sec.append(el("h3", {}, TX.preparacion));
+      const ul = el("ul", { class: "form" });
+      D.preparacion.forEach(pr => { const [t, anio] = separarAnio(pr); ul.append(fila([document.createTextNode(t.replace(/\.$/, ""))], "", anio)); });
+      sec.append(ul); cuerpo.append(sec);
+    }
+    cv.append(lado, cuerpo);
+    const cvs = $("cv-descargas");
+    [[D.contacto.cv_pdf, TX.cv_es], [D.contacto.cv_pdf_en, TX.cv_en]].filter(([u]) => u)
+      .forEach(([u, t]) => cvs.append(el("a", { class: "descarga", href: u, download: "", "data-ev": "cv-" + (u.includes("-en") ? "ingles" : "espanol") }, t)));
+    if (!cvs.childNodes.length) cvs.remove();
+  }
+
+  // Galerías con visor
+  const visor = $("visor"); let lista = [], actual = 0;
+  const mostrar = i => {
+    actual = (i + lista.length) % lista.length;
+    $("v-img").src = lista[actual].src; $("v-img").alt = lista[actual].pie || completo;
+    $("v-pie").textContent = lista[actual].pie || "";
+  };
+  const galeria = (cont, items) => items.forEach((it, i) => {
+    const b = el("button", { "aria-label": TX.ampliar + (it.pie || TX.foto + (i + 1)) });
+    const m = el("div", { class: "marco" }); m.append(foto(it.src, it.alt || it.pie || completo));
+    b.append(m); if (it.pie) b.append(el("span", { class: "pie" }, it.pie));
+    b.onclick = () => { lista = items; mostrar(i); visor.showModal(); cuenta("foto ampliada " + (i + 1)); };
+    cont?.append(b);
+  });
+  galeria($("galeria"), (D.fotos || []).map((src, i) => ({ src, alt: completo + (L === "en" ? ", actor – photo " : ", actor – foto ") + (i + 1) })));
+  if (D.fotos_credito && $("galeria")) {
+    const cr = el("p", { class: "credito" });
+    const [etq, ...resto] = D.fotos_credito.split(": ");
+    const nombre = resto.join(": ");
+    if (D.fotos_credito_enlace && nombre) {
+      cr.append(etq + ": ", el("a", { href: D.fotos_credito_enlace, target: "_blank", rel: "noopener" }, nombre));
+    } else cr.textContent = D.fotos_credito;
+    $("galeria").after(cr);
+  }
+  (D.teatro || []).forEach(o => {
+    const art = el("article", { class: "obra" });
+    if (o.cartel) {
+      const b = el("button", { class: "cartel", "aria-label": TX.ver_cartel + o.titulo });
+      b.append(foto(o.cartel, TX.cartel + o.titulo, true));
+      b.onclick = () => { lista = [{ src: o.cartel, pie: o.titulo }]; mostrar(0); visor.showModal(); cuenta("cartel: " + o.titulo); };
+      art.append(b);
+    }
+    const col = el("div"); art.append(col);
+    col.append(el("h3", {}, o.titulo));
+    const dl = el("dl");
+    [[TX.personaje, o.personaje], [TX.direccion, o.direccion], [TX.autor, o.autor], [TX.anio, o.anio]]
+      .filter(([, v]) => v).forEach(([k, v]) => dl.append(el("dt", {}, k), el("dd", {}, v)));
+    col.append(dl);
+    if (o.nota) col.append(el("p", { class: "nota" }, o.nota));
+    if (o.fotos?.length) {
+      const g = el("div", { class: "galeria funcion" });
+      const items = o.fotos.map(f => typeof f === "string" ? { src: f } : f).map(f => ({ ...f, pie: o.titulo }));
+      galeria(g, items);
+      [...g.children].forEach((b, i) => { if (items[i].ancho) b.classList.add("ancho"); });
+      (window.matchMedia("(max-width:640px)").matches ? art : col).append(g);
+    }
+    $("teatro-lista")?.append(art);
+  });
+  $("v-cerrar").onclick = () => visor.close();
+  $("v-ant").onclick = () => mostrar(actual - 1);
+  $("v-sig").onclick = () => mostrar(actual + 1);
+  visor.addEventListener("click", e => { if (e.target === visor) visor.close(); });
+  document.addEventListener("keydown", e => {
+    if (!visor.open) return;
+    if (e.key === "ArrowLeft") mostrar(actual - 1);
+    if (e.key === "ArrowRight") mostrar(actual + 1);
+  });
+
+  // Pie con contacto
+  const c = D.contacto, pie = $("pie");
+  const b1 = el("div"); b1.append(el("div", { class: "logo" }, completo), el("p", {}, TX.ciudad + (c.ciudad || "")));
+  const b2 = el("div");
+  if (c.email) { const p = el("p"); p.append(el("a", { href: "mailto:" + c.email, "data-ev": "email" }, c.email)); b2.append(p); }
+  if (c.telefono) { const p = el("p"); p.append(el("a", { href: "tel:" + c.telefono.replace(/\s/g, ""), "data-ev": "telefono" }, c.telefono)); b2.append(p); }
+  const b3 = el("div");
+  const redes = cont => {
+    const ICONOS = {"imdb": "<svg fill=\"currentColor\" aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22.3781 0H1.6218C.7411.0583.0587.7437.0018 1.5953l-.001 20.783c.0585.8761.7125 1.543 1.5559 1.6191A.337.337 0 0 0 1.6016 24h20.7971a.4579.4579 0 0 0 .0437-.002c.8727-.0768 1.5568-.8271 1.5568-1.7085V1.7098c0-.8914-.696-1.6416-1.584-1.7078A.3294.3294 0 0 0 22.3781 0zm0 .496a1.2144 1.2144 0 0 1 1.1252 1.2139v20.5797c0 .6377-.4875 1.1602-1.1045 1.2145H1.6016c-.5967-.0543-1.0645-.5297-1.1053-1.1258V1.6284C.5371 1.0185 1.0184.5364 1.6217.496h20.7564zM4.7954 8.2603v7.3636H2.8899V8.2603h1.9055zm6.5367 0v7.3636H9.6707v-4.9704l-.6711 4.9704H7.813l-.6986-4.8618-.0066 4.8618h-1.668V8.2603h2.468c.0748.4476.1492.9694.2307 1.5734l.2712 1.8713.4407-3.4447h2.4817zm2.9772 1.3289c.0742.0404.122.108.1417.2034.0279.0953.0345.3118.0345.6442v2.8548c0 .4881-.0345.7867-.0955.8954-.0609.1152-.2304.1695-.5018.1695V9.5211c.204 0 .3457.0205.4211.0681zm-.0211 6.0347c.4543 0 .8006-.0265 1.0245-.0742.2304-.0477.4204-.1357.5694-.2648.1556-.1218.2642-.298.3251-.5219.0611-.2238.1021-.6648.1021-1.3224v-2.5832c0-.6986-.0271-1.1668-.0742-1.4039-.041-.237-.1431-.4543-.3126-.6437-.1695-.1973-.4198-.3324-.7456-.421-.3191-.0808-.8542-.1285-1.7694-.1285h-1.4244v7.3636h2.3051zm5.14-1.7827c0 .3523-.0199.5762-.0544.6708-.033.0947-.1894.1424-.3046.1424-.1086 0-.19-.0477-.2238-.1351-.041-.0887-.0609-.2986-.0609-.6238v-1.9469c0-.3324.0199-.5423.0543-.6237.0338-.0808.1086-.122.2171-.122.1153 0 .2709.0412.3114.1425.041.0947.0609.2986.0609.6032v1.8926zm-2.4747-5.5809v7.3636h1.7157l.1152-.4675c.1556.1894.3251.3324.5152.4271.1828.0881.4608.1357.678.1357.3047 0 .5629-.0748.7802-.237.2165-.1562.3589-.3462.4198-.5628.0543-.2173.0887-.543.0887-.9841v-2.0675c0-.4409-.0139-.7324-.0344-.8681-.0199-.1357-.0742-.2781-.1695-.4204-.1021-.1425-.2437-.251-.4272-.3325-.1834-.0742-.3999-.1152-.6576-.1152-.2172 0-.4952.0477-.6846.1285-.1835.0887-.353.2238-.5086.4007V8.2603h-1.8309z\"/></svg>", "instagram": "<svg fill=\"currentColor\" aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077\"/></svg>"};
+    [["IMDb", c.imdb, "imdb"], ["Instagram", c.instagram, "instagram"]].filter(([, u]) => u)
+      .forEach(([t, u, k]) => {
+        const a = el("a", { href: u, target: "_blank", rel: "noopener", "aria-label": t, title: t });
+        a.innerHTML = ICONOS[k];
+        a.classList.add("ic-" + k);
+        a.dataset.ev = k;
+        cont.append(a);
+      });
+  };
+  b3.className = "redes"; redes(b3);
+  const rs = $("redes-top"); redes(rs);
+  rs.insertAdjacentHTML("afterbegin", '<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><radialGradient id="ig-grad" cx="30%" cy="107%" r="150%"><stop offset="0" stop-color="#fdf497"/><stop offset=".05" stop-color="#fdf497"/><stop offset=".45" stop-color="#fd5949"/><stop offset=".6" stop-color="#d6249f"/><stop offset=".9" stop-color="#285AEB"/></radialGradient></defs></svg>');
+  if (!rs.querySelector("a")) rs.remove();
+  pie.append(b1, b2, b3, el("div", { class: "legal" }, "© " + new Date().getFullYear() + " " + completo));
+})();
+</script>
+</body>
+</html>
